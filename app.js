@@ -5,10 +5,10 @@ var fs = require("fs"),
     json;
 
 
-app.use(express.static(__dirname));
+//app.use(express.static(__dirname));
 
 app.use('/yo', function(req, res){
-  res.send(json);
+  res.send("hello");
   //res.send('hey');
   res.end();
 });
