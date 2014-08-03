@@ -17,6 +17,7 @@ app.use('/yo', function(req, res){
   res.end();
 });
 
-var server = app.listen(3000, function() {
-    console.log('Listening on port %d', server.address().port);
+var port = Number(process.env.PORT || 5000);
+app.listen(port, function() {
+  console.log("Listening on " + port);
 });
