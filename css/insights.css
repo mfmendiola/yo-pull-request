@@ -1,0 +1,18 @@
+/*-- Chart --*/
+
+.controlMenu {
+  float: left;
+  width: 280px;
+  margin-left: 20px;
+
+}
+
+.filter {
+  margin-bottom: 10px;
+}
+
+.charts {
+  margin-left: 350px;
+  margin-right: 50px;
+
+}
