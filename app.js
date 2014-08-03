@@ -7,6 +7,10 @@ var fs = require("fs"),
 
 //app.use(express.static(__dirname));
 
+app.get('/', function(req, res) {
+  res.send('Hello World!');
+});
+
 app.use('/yo', function(req, res){
   res.send("hello");
   //res.send('hey');
